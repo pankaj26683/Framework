@@ -23,7 +23,7 @@ public class LoginTestWordPress extends BaseClass
 
 		log.logn(excel.getStringdata("Login", 0, 0), excel.getStringdata("Login", 0, 1));
 		logger.pass("Logged successfully");
-		// Helper.screenshot(driver);// to get the screeenshot
+		// Helper.screenshot(driver);// to get the screeenshot of success of failure
 
 	}
 
