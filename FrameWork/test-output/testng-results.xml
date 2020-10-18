@@ -2,39 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-08T17:48:37Z" name="Default suite" finished-at="2020-10-08T17:48:57Z" duration-ms="20250">
+  <suite started-at="2020-10-18T19:08:25Z" name="Suite" finished-at="2020-10-18T19:08:44Z" duration-ms="19234">
     <groups>
     </groups>
-    <test started-at="2020-10-08T17:48:37Z" name="Default test" finished-at="2020-10-08T17:48:57Z" duration-ms="20250">
+    <test started-at="2020-10-18T19:08:25Z" name="Test" finished-at="2020-10-18T19:08:44Z" duration-ms="19234">
       <class name="com.learnaautomation.testcases.LoginTestWordPress">
-        <test-method is-config="true" signature="ExcelData()[pri:0, instance:com.learnaautomation.testcases.LoginTestWordPress@74e52303]" started-at="2020-10-08T17:48:35Z" name="ExcelData" finished-at="2020-10-08T17:48:37Z" duration-ms="1482" status="PASS">
+        <test-method is-config="true" signature="ExcelData()[pri:0, instance:com.learnaautomation.testcases.LoginTestWordPress@3232a28a]" started-at="2020-10-18T19:08:24Z" name="ExcelData" finished-at="2020-10-18T19:08:25Z" duration-ms="799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExcelData -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.learnaautomation.testcases.LoginTestWordPress@74e52303]" started-at="2020-10-08T17:48:37Z" name="setup" finished-at="2020-10-08T17:48:46Z" duration-ms="8730" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learnaautomation.testcases.LoginTestWordPress@3232a28a]" started-at="2020-10-18T19:08:25Z" name="setup" finished-at="2020-10-18T19:08:33Z" duration-ms="8462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginAPP()[pri:1, instance:com.learnaautomation.testcases.LoginTestWordPress@74e52303]" started-at="2020-10-08T17:48:46Z" name="loginAPP" finished-at="2020-10-08T17:48:55Z" duration-ms="9271" status="PASS">
+        <test-method signature="loginAPP()[pri:1, instance:com.learnaautomation.testcases.LoginTestWordPress@3232a28a]" started-at="2020-10-18T19:08:33Z" name="loginAPP" finished-at="2020-10-18T19:08:42Z" duration-ms="8633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAPP -->
-        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.learnaautomation.testcases.LoginTestWordPress@74e52303]" started-at="2020-10-08T17:48:55Z" name="teardownMethod" finished-at="2020-10-08T17:48:57Z" duration-ms="2201" status="PASS">
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.learnaautomation.testcases.LoginTestWordPress@3232a28a]" started-at="2020-10-18T19:08:42Z" name="teardownMethod" finished-at="2020-10-18T19:08:44Z" duration-ms="2112" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginAPP status=SUCCESS method=LoginTestWordPress.loginAPP()[pri:1, instance:com.learnaautomation.testcases.LoginTestWordPress@74e52303] output={null}]]]>
+                <![CDATA[[TestResult name=loginAPP status=SUCCESS method=LoginTestWordPress.loginAPP()[pri:1, instance:com.learnaautomation.testcases.LoginTestWordPress@3232a28a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.learnaautomation.testcases.LoginTestWordPress@74e52303]" started-at="2020-10-08T17:48:57Z" name="teardown" finished-at="2020-10-08T17:48:57Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.learnaautomation.testcases.LoginTestWordPress@3232a28a]" started-at="2020-10-18T19:08:44Z" name="teardown" finished-at="2020-10-18T19:08:44Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.learnaautomation.testcases.LoginTestWordPress -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

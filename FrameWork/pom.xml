@@ -73,6 +73,13 @@
     <version>4.4</version>
 </dependency>
 
+<dependency>
+    <groupId>org.assertj</groupId>
+    <artifactId>assertj-core</artifactId>
+    <version>3.11.1</version>
+    <scope>test</scope>
+</dependency>
+
 <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-compress -->
 <dependency>
     <groupId>org.apache.commons</groupId>
@@ -91,7 +98,7 @@
  
 <groupId>org.apache.maven.plugins</groupId>
 <artifactId>maven-compiler-plugin</artifactId>
-<version>3.0</version>
+<version>3.5.1</version>
 <configuration>
 <compilerVersion>1.8</compilerVersion>
 <source>1.6</source>
@@ -102,13 +109,16 @@
 <plugin>
 <groupId>org.apache.maven.plugins</groupId>
 <artifactId>maven-surefire-plugin</artifactId>
-<version>2.21.0</version>
+<version>3.0.0-M3</version>
+ 
+      
+ 
 <configuration>
- 
+
 <suiteXmlFiles>
-<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+<suiteXmlFile>XML_Files/testngWordPress.xml</suiteXmlFile>
 </suiteXmlFiles>
- 
+<testFailureIgnore>true</testFailureIgnore>
  
 </configuration>
 </plugin>

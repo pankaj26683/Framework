@@ -71,6 +71,13 @@ public class BaseClass
 					MediaEntityBuilder.createScreenCaptureFromPath(Helper.screenshot(driver)).build());
 		}
 
+		else if (result.getStatus()==ITestResult.SKIP)
+		{
+			
+			logger.skip("Test Case skipped", MediaEntityBuilder.createScreenCaptureFromPath(Helper.screenshot(driver)).build());
+		}
+		
+		
 		report.flush();// to create the report
 		BrowserFactory.quitBrowser(driver);
 
