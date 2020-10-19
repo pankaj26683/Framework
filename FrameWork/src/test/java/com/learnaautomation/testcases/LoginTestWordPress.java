@@ -7,6 +7,8 @@ import org.testng.annotations.Test;
 import com.learnaautomation.pages.BaseClass;
 import com.learnaautomation.pages.LoginPage;
 
+import junit.framework.Assert;
+
 public class LoginTestWordPress extends BaseClass
 
 {
@@ -24,7 +26,23 @@ public class LoginTestWordPress extends BaseClass
 		log.logn(excel.getStringdata("Login", 0, 0), excel.getStringdata("Login", 0, 1));
 		logger.pass("Logged successfully");
 		// Helper.screenshot(driver);// to get the screeenshot of success of failure
-
+		
+		if(driver.getTitle().equals(""))
+		{
+		
+			Assert.assertTrue(true);
+			
+		}
+		
+		else
+		{
+			
+				
+				Assert.assertTrue(false);
+				
+				
+		}
+		
 	}
 
 //	@Test(priority = 2)

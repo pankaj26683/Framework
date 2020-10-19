@@ -35,6 +35,7 @@ public void logn(String username, String Password)
 	uname.sendKeys(username);
 	pwd.sendKeys(Password);
 	loginButton.click();
+	
 }
 
 
